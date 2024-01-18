@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- ======================Header====================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <!-- <img src="assets/images/apple logo.png" alt="" class="nav__logo-img"> -->
+                <i class='bx bxl-apple nav__logo-icon'></i>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">New</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--============== CART ==============-->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img class="cart__img" src="assets/images/featured1 1.png" alt="" >
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Mag Safe Case</h3>
+                    <span class="cart__price">₩69,000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img class="cart__img" src="assets/images/airpods.png" alt="" >
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">AirPods</h3>
+                    <span class="cart__price">₩359,000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img class="cart__img" src="assets/images/product3-removebg-preview.png" alt="" >
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">AirPods Max</h3>
+                    <span class="cart__price">₩769,000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">3 items</span>
+            <span class="cart__prices-total">₩1,197,000</span>
+        </div>
+    </div>
+
+<!--============== MAIN ==============-->
+    <main class="main">
+        <!-- ==================HOME======================= -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="assets/images/home-iphone_img-removebg-preview.png" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="http://www.facebook.com" target="_blank" class="home__social-link">
+                        Facebook
+                    </a>
+                    <a href="http://twitter.com" target="_blank" class="home__social-link">
+                        Twitter
+                    </a>
+                    <a href="http://www.instagram.com" target="_blank" class="home__social-link">
+                        Instagram
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">iPhone 15</h1>
+                    <p class="home__description">
+                        The iPhone 15 is the first major redesign
+                        since the iPhone 12, featuring rounder edges
+                        and slightly curved display and back glass.
+                    </p>
+                    <span class="home__price">₩1,250,000</span>
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                            Discover
+                        </a>
+                        <button class="button home__button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== FEATURED ======================= -->
+        <section class="featured section container" id="featured">
+            <h2 class="section__title">Featured</h2>
+            <div class="featured__container grid">
+                <article class="featured__card">
+                    <span class="featured__tag">Sale</span>
+                    <img src="assets/images/featured1 1.png" class="featured__img" alt="1">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Mag Safe Case</h3>
+                        <span class="featured__price">₩69,000</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Sale</span>
+                    <img src="assets/images/블루케이스-removebg-preview.png" class="featured__img" alt="2">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">OtterBox Figura case</h3>
+                        <span class="featured__price">₩69,000</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Sale</span>
+                    <img src="assets/images/featured1 1-2.png" class="featured__img" alt="3">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">OtterBox Figura Series</h3>
+                        <span class="featured__price">$69,000</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================== STORY ======================= -->
+        <section class="story section container">
+            <div class="story__container grid">
+                <div class="story__data">
+                    <h2 class="section__title story__section-title">
+                        Our Story
+                    </h2>
+
+                    <h1 class="story__title">
+                        Inspirational Earbud of <br>
+                        this year
+                    </h1>
+
+                    <p class="story__description">
+                        The latest and modern watches of this year, <br> is available in various presentations in this
+                        store, <br> discover them now.
+                    </p>
+
+                    <a href="#" class="button button--small">Discover</a>
+                </div>
+
+                <div class="story__images">
+                    <div class="story__bg">
+                        <img src="assets/images/airpods.png" class="story__img" alt="airpods">
+                    </div>
+
+                    <div class="story__square"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== PRODUCTS ======================= -->
+        <section class="products section container" id="products">
+            <h2 class="section__title">Products</h2>
+
+            <div class="products__container grid">
+                <article class="products__card">
+                    <img src="assets/images/product1-removebg-preview.png" class="products__img" alt="pr">
+                    <h3 class="products__title">AirPdos</h3>
+                    <span class="products__price">₩-359,000</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/images/product2-removebg-preview.png" class="products__img" alt="pr">
+                    <h3 class="products__title">Beats Studio <br>Buds+</h3>
+                    <span class="products__price">₩229,000</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/images/product3-removebg-preview.png" class="products__img" alt="pr">
+                    <h3 class="products__title">AirPods Max</h3>
+                    <span class="products__price">₩769,000</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/images/product4_1-removebg-preview.png" class="products__img" alt="pr">
+                    <h3 class="products__title">Beats Studio <br> Pro Wireless</h3>
+                    <span class="products__price">₩449,000</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="assets/images/product5_1-removebg-preview.png" class="products__img" alt="pr">
+                    <h3 class="products__title">Beats Flex</h3>
+                    <span class="products__price">₩89,000</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================== TESTIMONIAL ======================= -->
+        <section class="testimonial section container">
+            <div class="testimonial__container grid">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                The New York Times reported that Apple was <br>
+                                exploring various ideas, including a "curved-<br>
+                                glass iPod that would wrap around the wrist",<br>
+                                which users would interact with through the<br>
+                                Siri voice assistant, and which "could relay<br> 
+                                information back to the iPhone".
+                            </p>
+                            <h3 class="testimonial__date">March 27. 2023</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/images/Frame 1.png" alt="1" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Jony Ive</span>
+                                    <span class="testimonial__perfil-detail">Director of a company</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                He headed Apple’s Macintosh division and played a <br>
+                                key role in the continued development of strategic<br>
+                                reseller and supplier relationships, ensuring
+                                flexibility in response to an increasingly<br>
+                                demanding marketplace.
+                            </p>
+                            <h3 class="testimonial__date">March 27. 2023</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/images/Frame2.png" alt="1" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Tim Cook</span>
+                                    <span class="testimonial__perfil-detail">CEO</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">Kate serves on the company’s executive team and 
+                                oversees all legal matters, including corporate 
+                                governance, intellectual property, litigation and
+                                securities compliance, global security and privacy.
+                            </p>
+                            <h3 class="testimonial__date">March 27. 2023</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/images/Frame 3.png" alt="1" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Katherine Adams</span>
+                                    <span class="testimonial__perfil-detail">Senior Vice President and <br>
+                                        General Counsel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-left-arrow-alt' ></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial__images">
+                    <div class="testimonial__square"></div>
+                    <img src="assets/images/apple watch.png" alt="" class="testimonial__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== NEW ======================= -->
+        <section class="new section container" id="new">
+            <h2 class="section__title">New Arrivals</h2>
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="assets/images/new1-수정.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">핑크 스포츠 루프</h3>
+                                <span class="new__price">₩65,000</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="assets/images/new2-수정.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">멀베리 스포츠 밴드</h3>
+                                <span class="new__price">₩65,000</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="assets/images/new3-removebg-preview.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">실버 밀레니즈 루프</h3>
+                                <span class="new__price">₩135,000</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="assets/images/new4-수정.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">미드나이트 솔로 루프</h3>
+                                <span class="new__price">₩65,000</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ================== NEWSLETTER ======================= -->
+        <section class="newsletter section container">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                    <p class="newsletter__description">
+                        Don't miss out on your discounts. Subscribe to our email newsletter to get the best offers, discounts, coupons, gifts and much more.
+                    </p>
+                </div>
+
+                <form action="" class="newsletter__subscribe">
+                    <input type="email" placeholder="Enter your email" class="newsletter__input">
+                    <button class="button">
+                        SUBSCRIBE
+                    </button>
+                </form>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+            <!-- ================== FOOTER ======================= -->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our information</h3>
+                        
+                        <ul class="footer__list">
+                            <li>1234 - Peru</li>
+                            <li>La Libertad 43210</li>
+                            <li>123-456-789</li>
+                        </ul>
+                    </div>
+                    <div class="footer__content">
+                        <h3 class="footer__title">About us</h3>
+                        
+                        <ul class="footer__link">
+                            <li>
+                                <a href="#" class="footer__link">Support Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Customer Support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Copy Right</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__content">
+                        <h3 class="footer__title">Product</h3>
+                        
+                        <ul class="footer__link">
+                            <li>
+                                <a href="#" class="footer__link">Road bikes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Mountain bikes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Electric</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">accesories</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__content">
+                        <h3 class="footer__title">Social</h3>
+                        
+                        <ul class="footer__social">
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-facebook' ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-instagram' ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-youtube' ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169;2023 daehwan. All rights reserved</span>
+            </footer>
+
+                <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+<!-- SWIPER JS -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
